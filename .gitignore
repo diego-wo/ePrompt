@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Ignore o arquivo de configuração do OpenAI
+.env
+
+# Ignore arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignore pastas comuns de ambientes virtuais
+venv/
+__pycache__/
+*.pyc
+*.pyo
